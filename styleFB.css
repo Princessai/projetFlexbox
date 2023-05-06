@@ -1,0 +1,675 @@
+@font-face {
+    font-family: Satisfy;
+    src: url(polices/Satisfy/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: Signika_Negative;
+    src: url(polices/Signica_Negative/SignikaNegative-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(polices/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    color: rgba(51, 51, 51, 1);
+    font-family: signika_Negative;
+}
+
+.sideBar {
+    width: 14rem;
+    background-color: rgb(10, 44, 87);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+}
+
+.sideBar .dropdown {
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    max-width: 25%;
+    background-color: rgb(10, 44, 87);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding-right: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.sideBar img {
+    width: 50%;
+}
+
+.sideBar i {
+    font-size: 20px;
+    color: rgb(56, 104, 199);
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.sideBar li {
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.sideBar a {
+    text-decoration: none;
+    color: rgba(87, 120, 184, 1);
+}
+
+.sideBar a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.mainPage {
+    width: 100%;
+    flex: 1;
+}
+
+#Home {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#Home h1 {
+    margin-right: auto;
+    width: 30%;
+    align-self: center;
+    font-size: 70px;
+    color: rgba(230, 207, 136, 1);
+    font-family: PlayfairDisplay;
+
+}
+
+#Home img {
+    max-height: 617px;
+    min-height: auto;
+    width: auto;
+}
+
+#About {
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+}
+
+h2 {
+    font-size: 35px;
+    width: min-content;
+    margin-left: 15px;
+    color: rgba(0, 0, 0, 1);
+    font-family: Signika_Negative;
+}
+
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text0 p {
+    margin: 50px;
+}
+
+.text0 button {
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: rgba(230, 207, 136, 1);
+    border: none;
+}
+
+.text0 hr {
+    border: solid 2px rgba(230, 207, 136, 1);
+    width: 60%;
+    margin-left: -50px;
+    margin-top: -15px;
+}
+
+.leadership hr {
+    border: solid 2px rgba(230, 207, 136, 1);
+    width: 50%;
+    margin-left: -50px;
+}
+
+
+#About img {
+    max-height: 617px;
+    min-height: auto;
+}
+
+/* section experiences */
+
+.leadership {
+    display: flex;
+}
+
+.leadership .leftSide {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.leadership .leftSide p {
+    padding: 50px;
+    font-size: 14px;
+    width: 60%;
+    margin-left: 50px;
+}
+
+.leadership .leftSide img {
+    width: 70%;
+    margin-left: 30px;
+}
+
+.leadership .rightSide {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.text2 {
+    column-count: 2;
+    column-gap: 20%;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+}
+
+.leadership .rightSide img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text2 h3 {
+    font-size: 25px;
+    width: 60%;
+}
+
+/*mastering section*/
+.mastering .leftSide {
+    display: flex;
+    margin-left: 50px;
+}
+
+.mastering .leftSide img {
+    width: 30%;
+    margin: 50px;
+}
+
+.text3 {
+    margin-left: 80px;
+    width: 40%;
+    height: 460px;
+    background-color: #F5F9FF;
+}
+
+.text3 p {
+    padding: 50px;
+    font-size: 13px;
+}
+
+.text3 h2 {
+    font-weight: lighter;
+    margin-top: -65px;
+    line-height: 1;
+    width: 40%;
+}
+
+.mastering .rightSide {
+    column-count: 2;
+    column-gap: 5rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 14px;
+}
+
+.mastering .rightSide h4 {
+    width: 50%;
+}
+
+/* /section experiences */
+
+/* section coaching */
+#coaching {
+    display: flex;
+    margin-top: 100px;
+}
+
+#coaching hr {
+    border: solid 2px rgba(230, 207, 136, 1);
+    width: 50%;
+    margin-left: -80px;
+    margin-top: -15px;
+}
+
+#coaching .leftSide {
+    padding: 40px;
+    width: 50%;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+#coaching .leftSide img {
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+#coaching h2 {
+    margin-left: -20px;
+}
+
+#coaching .rightSide {
+    width: 50%;
+    padding: 40px;
+    font-size: 14px;
+
+}
+
+#coaching .rightSide img {
+    width: 70%;
+    margin-top: 20px;
+
+}
+
+#coaching .rightSide .text5 {
+    column-count: 2;
+    column-gap: 2rem;
+    margin-top: 30px;
+}
+
+#coaching .rightSide button {
+    padding: 20px;
+    margin-top: 50px;
+    background-color: rgba(230, 207, 136, 1);
+    border: none;
+    width: min-content;
+    justify-content: center;
+}
+
+/* /section coaching */
+
+/*section statistiques*/
+.statistiques {
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #F5F9FF;
+    padding: 30px;
+    line-height: .5;
+
+}
+
+.statistiques {
+    width: auto;
+}
+
+.statistiques span {
+    font-size: 20px;
+}
+
+.statistiques div {
+    flex-wrap: wrap;
+    width: 5%;
+}
+
+/* /section statistiques*/
+
+/*section témoignages*/
+.temoignage {
+    display: flex;
+}
+
+.temoignage .billy {
+    width: 50%;
+    padding: 50px;
+}
+
+.temoignage .billy img {
+    width: 40%;
+}
+
+.temoignage .raymond {
+    width: 50%;
+    padding: 50px;
+}
+
+.temoignage .raymond img {
+    width: 40%;
+}
+
+.temoignage p {
+    padding-top: 15px;
+    width: 50%;
+}
+
+.temoignage i {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: rgba(230, 207, 136, 1);
+
+}
+
+.temoignage .quotes {
+    display: flex;
+    font-size: 12px;
+}
+
+figure {
+    display: flex;
+}
+
+figcaption {
+    padding: 20px;
+    height: 20px;
+    border-bottom: solid 2px rgba(230, 207, 136, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+figcaption span {
+    font-size: 13px;
+    color: rgb(140, 135, 135);
+    font-family: Satisfy;
+}
+
+/* /section témoignages*/
+
+/*section contact*/
+
+#contact hr {
+    border: solid 2px rgba(230, 207, 136, 1);
+    width: 20%;
+    margin-left: -40px;
+    margin-top: -15px;
+}
+
+#name {
+    grid-area: name;
+    background-color: #dde7f5;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+#email {
+    grid-area: email;
+    background-color: #dde7f5;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#phone {
+    grid-area: phone;
+    background-color: #dde7f5;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#message {
+    background-color: #dde7f5;
+    border: none;
+    margin: 10px;
+    padding: 20px;
+    grid-area: message;
+}
+
+.send {
+    margin-top: 50px;
+    background-color: rgba(230, 207, 136, 1);
+    border: none;
+    width: fit-content;
+    margin: 30px;
+    margin-left: 0px;
+    padding: 30px;
+    grid-area: send;
+}
+
+.text6 {
+    grid-area: text6;
+    margin: 30px;
+    font-size: 12px;
+
+}
+
+form {
+    margin: 50px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-areas: "name email phone"
+        "message message message"
+        "send text6 text6";
+
+}
+
+/* /section contact*/
+
+/* footer */
+footer {
+    font-size: 15px;
+    color: rgba(51, 51, 51, 1);
+    padding: 30px;
+    padding-bottom: 0;
+    background-color: #F5F9FF;
+}
+
+footer span {
+    font-size: 13px;
+    color: rgb(111, 107, 107);
+    line-height: 3;
+}
+
+footer i {
+    font-size: 50px;
+    color: rgb(56, 104, 199);
+    position: absolute;
+    margin-top: -55px;
+}
+
+/* adaptation écran tablette et portable  */
+
+@media screen and (max-width: 960px) and (min-width: 576px){
+    body {
+        display: block;
+    }
+
+    #About img {
+        display: none;
+    }
+
+    .sideBar {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .sideBar li {
+        display: inline;
+        margin: 40px;
+    }
+
+    .mastering .rightSide {
+        column-count: 1;
+        margin-top: 50px;
+    }
+    .mastering .leftSide .text3 {
+        width: fit-content;
+        margin: 0;
+    }
+
+
+    #contact hr {
+        border: solid 2px rgba(230, 207, 136, 1);
+        width: 40%;
+    }
+
+    #About h2 {
+        width: max-content;
+    }
+
+}
+@media screen and (max-width: 688px) {
+    body {
+        display: block;
+    }
+
+    #Home .Mark {
+        width: 100%;
+        text-align: center;
+    }
+
+    #About img {
+        display: none;
+    }
+
+    .sideBar {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .sideBar li {
+        display: inline;
+        margin: 40px;
+    }
+
+    .leadership {
+        flex-wrap: wrap;
+    }
+
+    .leadership .rightSide img {
+        margin: auto;
+    }
+
+    .leadership .leftSide {
+        width: fit-content;
+    }
+
+    .text2 {
+        column-count: 1;
+    }
+
+    .mastering {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+
+    .mastering .leftSide { 
+        display: block;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+        width: auto;
+
+    }
+
+    .mastering .leftSide img {
+        margin: 70px;
+        width: 50%;
+    }
+
+    .mastering .leftSide .text3 {
+        width: fit-content;
+        margin: 0;
+    }
+
+    .mastering .rightSide {
+        column-count: 1;
+    }
+
+    #coaching {
+        flex-direction: column;
+    }
+
+    #coaching .leftSide {
+        width: fit-content;
+    }
+
+    #coaching .rightSide {
+        width: fit-content;
+    }
+
+    #coaching .rightSide .text5 {
+        column-count: 1;
+    }
+
+    .temoignage {
+        flex-wrap: wrap;
+    }
+
+    .temoignage .billy {
+        width: fit-content;
+    }
+
+    .temoignage .raymond {
+        width: fit-content;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    form .text6 {
+        margin: 0;
+    }
+
+    #contact hr {
+        border: solid 2px rgba(230, 207, 136, 1);
+        width: 40%;
+    }
+
+    #Home h1 {
+        width: max-content;
+        text-align: center;
+    }
+
+    #Home img {
+        max-height: auto;
+        min-height: auto;
+        justify-self: center;
+    }
+
+    #About h2 {
+        width: max-content;
+    }
+
+    
+}
+
+@media screen and (max-width: 916px) {
+    .sideBar .dropdown {
+        display: block;
+    }
+    .sideBar .firstNav {
+        display: none;
+        text-align: left;
+    }
+    .sideBar ul {
+        padding-left: 0;
+    }
+    #close {
+        display: none;
+    }
+    .sideBar {
+        text-align: center;
+    }
+}
